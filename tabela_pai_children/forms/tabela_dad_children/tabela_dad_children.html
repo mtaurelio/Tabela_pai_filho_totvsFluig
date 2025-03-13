@@ -20,12 +20,12 @@
 				</div>
 				<div class="panel-body">
 					<!-- nodeletebutton=true TAG que remove a lixeira padrão do FLUIG  -->
-					<table tablename="lixeira" class="table" nodeletebutton=true>
+					<table tablename="lixeira" class="table" nodeletebutton=true noaddbutton=true>
 						<thead>
 							<tr>
 								<td><label>Produto</label></td>
 								<td><label>Preço</label></td>
-								<td></td>
+								<td><i class="flaticon flaticon-exposure-plus-1 icon-md" aria-hidden="true" style="cursor: pointer;" onclick="addLinha();"></i></td>
 							</tr>
 						</thead>
 						<tbody>
@@ -33,6 +33,9 @@
 								<td><input type="text" class="form-control" name="txt_produto" id="txt_produto"></td>
 								<td><input type="text" class="form-control" name="txt_preco" id="txt_preco"></td>
 								<td><i class="flaticon flaticon-trash icon-md" aria-hidden="true" style="cursor: pointer;" onclick="excluirLinha(this);"></i></td>
+								<td>
+
+								</td>
 							</tr>
 						</tbody>
 					</table>
