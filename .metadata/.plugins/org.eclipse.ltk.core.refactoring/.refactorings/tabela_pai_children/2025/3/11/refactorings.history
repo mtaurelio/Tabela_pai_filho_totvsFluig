@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete element from project &apos;tabela_pai_children&apos;&#x0D;&#x0A;- Original project: &apos;tabela_pai_children&apos;&#x0D;&#x0A;- Original element: &apos;WDG_HELLO_WORD&apos;" description="Delete element" element1="wcm/widget/WDG_HELLO_WORD" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="1" stamp="1741911778649" subPackages="false" version="1.0"/>
+</session>
